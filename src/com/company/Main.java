@@ -9,11 +9,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int M = 20;
         Airports airports = new Airports();
-        for (int i = 0; i < M; i++) {
-            airports.add(new Airport("ssss","ssss","ssssss",22,21212.2224242,LocalDateTime.of(2021,12,4,2,5),2));
-        }
+
+        airports.add(new Airport("alexander","Kvapish","alexandrovich",212,2,2,22.5,LocalDateTime.of(2022,12,2,21,20),1));
+
         System.out.println(airports);
     }
 }
